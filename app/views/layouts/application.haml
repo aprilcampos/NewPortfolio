@@ -11,6 +11,37 @@
     %script{:crossorigin => "anonymous", :src => "https://kit.fontawesome.com/1a4c4e9df5.js"}
 
   %body
+    .title-bar{"data-hide-for" => "medium", "data-responsive-toggle" => "responsive-menu"}
+      %button.menu-icon{"data-toggle" => "responsive-menu", :type => "button"}
+      = link_to root_path do
+        %img{src: "#{asset_path 'logo/logo.png'}"}
+
+    .top-bar-wrapper
+      .grid-container
+        #responsive-menu.top-bar
+          .top-bar-left
+            %ul.dropdown.menu{"data-dropdown-menu" => ""}
+              %li.menu-text Site Title
+              %li.has-submenu
+                %a{:href => "#0"} One
+                %ul.submenu.menu.vertical{"data-submenu" => ""}
+                  %li
+                    %a{:href => "#0"} One
+                  %li
+                    %a{:href => "#0"} Two
+                  %li
+                    %a{:href => "#0"} Three
+              %li
+                %a{:href => "#0"} Two
+              %li
+                %a{:href => "#0"} Three
+          .top-bar-right
+            %ul.menu
+              %li
+                %input{:placeholder => "Search", :type => "search"}/
+              %li
+                %button.button{:type => "button"} Search
+
     %p.notice= notice
     %p.alert= alert
 
