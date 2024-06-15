@@ -10,15 +10,15 @@ development_credential: &development_credential
 development:
   <<: *default
   host: 127.0.0.1
-  database: 'boilerplate_development'
+  database: 'new_portfolio_development'
   <<: *development_credential
 
 test:
   <<: *default
-  database: 'boilerplate_test'
+  database: 'new_portfolio_test'
 
 production:
   <<: *default
-  database: 'boilerplate_production'
-  username: boilerplate
-  password: <%= ENV["BOILERPLATE_DATABASE_PASSWORD"] %>
+  database: 'new_portfolio_production'
+  username: postgres
+  password: <%= ENV["PORTFOLIO_DATABASE_PASSWORD"] %>

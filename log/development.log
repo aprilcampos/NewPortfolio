@@ -198,3 +198,31 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 13622)
 
 
+Started GET "/" for ::1 at 2024-06-15 13:12:49 +0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.haml
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (Duration: 6.8ms | Allocations: 7128)
+  Rendered layout layouts/application.haml (Duration: 119.4ms | Allocations: 59306)
+Completed 200 OK in 134ms (Views: 122.1ms | ActiveRecord: 0.0ms | Allocations: 64255)
+
+
+Started GET "/" for ::1 at 2024-06-15 13:13:25 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.haml
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (Duration: 2.9ms | Allocations: 2078)
+  Rendered layout layouts/application.haml (Duration: 26.5ms | Allocations: 12871)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 13865)
+
+
+Started GET "/" for ::1 at 2024-06-15 13:14:53 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.haml
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.haml (Duration: 3.7ms | Allocations: 2489)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2781)
+
+

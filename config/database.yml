@@ -3,5 +3,5 @@ development:
  host: localhost
  username: postgres
  password: 123456789
- database: boilerplate_development
+ database: new_portfolio_development
  pool: 5
