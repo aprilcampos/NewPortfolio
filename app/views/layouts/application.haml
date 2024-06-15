@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Boilerplate
+    %meta{content: "width=device-width,initial-scale=1", name: "viewport"}/
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    = javascript_importmap_tags
+    %script{:crossorigin => "anonymous", :src => "https://kit.fontawesome.com/1a4c4e9df5.js"}
+
+  %body
+    %p.notice= notice
+    %p.alert= alert
+
+    - if user_signed_in?
+      = link_to "Sign out", "/users/sign_out", method: :delete, data: { turbo_method: :delete, turbo_confirm: 'Are you sure?' }
+    - else
+      = link_to "Sign In", new_user_session_url
+
+    = yield

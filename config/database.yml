@@ -1,0 +1,7 @@
+development:
+ adapter: postgresql
+ host: localhost
+ username: postgres
+ password: 123456789
+ database: boilerplate_development
+ pool: 5
