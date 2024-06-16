@@ -50,3 +50,8 @@ yarn-debug.log*
 
 !/log/development.log
 !/tmp/cache/bootsnap/load-path-cache
+
+log/development.log
+tmp/cache/assets/sprockets/
+tmp/cache/bootsnap/load-path-cache
+tmp/cache/assets/sprockets/v4.0.0/bp/

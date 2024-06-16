@@ -6931,9 +6931,246 @@ ol.list-upper-roman {
   padding-bottom: 3rem !important;
 }
 
+@media print, screen and (min-width: 40em) {
+  .align-middle-medium {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .align-middle-large-only {
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .text-center-on-large {
+    text-align: center;
+  }
+}
+
+@media print, screen and (min-width: 40em) {
+  .text-center-on-medium {
+    text-align: center;
+  }
+}
+
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+  .text-center-on-medium-only {
+    text-align: center;
+  }
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .text-center-on-small {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .width-100-xlarge {
+    width: 100%;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .width-100-large {
+    width: 100%;
+  }
+}
+
+@media print, screen and (min-width: 40em) {
+  .width-100-medium {
+    width: 100%;
+  }
+}
+
+.width-100-small {
+  width: 100%;
+}
+
+@media print, screen and (min-width: 64em) and (max-width: 74.99875em) {
+  .width-100-large-only {
+    width: 100%;
+  }
+}
+
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+  .width-100-medium-only {
+    width: 100%;
+  }
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .width-100-small-only {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .width-75-xlarge {
+    width: 75%;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .width-75-large {
+    width: 75%;
+  }
+}
+
+@media print, screen and (min-width: 40em) {
+  .width-75-medium {
+    width: 75%;
+  }
+}
+
+.width-75-small {
+  width: 75%;
+}
+
+@media print, screen and (min-width: 64em) and (max-width: 74.99875em) {
+  .width-75-large-only {
+    width: 75%;
+  }
+}
+
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+  .width-75-medium-only {
+    width: 75%;
+  }
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .width-75-small-only {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .width-50-xlarge {
+    width: 50%;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .width-50-large {
+    width: 50%;
+  }
+}
+
+@media print, screen and (min-width: 40em) {
+  .width-50-medium {
+    width: 50%;
+  }
+}
+
+.width-50-small {
+  width: 50%;
+}
+
+@media print, screen and (min-width: 64em) and (max-width: 74.99875em) {
+  .width-50-large-only {
+    width: 50%;
+  }
+}
+
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+  .width-50-medium-only {
+    width: 50%;
+  }
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .width-50-small-only {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .width-25-xlarge {
+    width: 25%;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .width-25-large {
+    width: 25%;
+  }
+}
+
+@media print, screen and (min-width: 40em) {
+  .width-25-medium {
+    width: 25%;
+  }
+}
+
+.width-25-small {
+  width: 25%;
+}
+
+@media print, screen and (min-width: 64em) and (max-width: 74.99875em) {
+  .width-25-large-only {
+    width: 25%;
+  }
+}
+
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+  .width-25-medium-only {
+    width: 25%;
+  }
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .width-25-small-only {
+    width: 25%;
+  }
+}
+
+.margin-vertical-auto {
+  margin: 0 auto;
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .margin-auto-small-only {
+    margin: auto;
+  }
+}
+
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+  .margin-auto-medium-only {
+    margin: auto;
+  }
+}
+
+@media print, screen and (min-width: 64em) and (max-width: 74.99875em) {
+  .margin-auto-large-only {
+    margin: auto;
+  }
+}
+
+.quote-close {
+  rotate: -180deg;
+}
+
+.title-bar {
+  background-color: #55AD9B;
+}
+
 .top-bar-wrapper {
-  background-color: #95D2B3;
+  background-color: #55AD9B;
 }
 .top-bar-wrapper .top-bar {
   background-color: inherit;
+}
+.top-bar-wrapper .top-bar ul.dropdown.menu {
+  background-color: inherit;
+}
+.top-bar-wrapper .top-bar ul.dropdown.menu li a {
+  color: #F1F8E8;
+}
+.top-bar-wrapper .top-bar ul.dropdown.menu li a:hover {
+  color: #95D2B3;
 }

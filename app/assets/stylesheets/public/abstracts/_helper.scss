@@ -1,0 +1,240 @@
+// Cell alignment
+.align-middle-medium {
+	@include breakpoint(medium up) {
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.align-middle-large-only {
+	@include breakpoint(large up) {
+		@include flex-align(left, middle);
+	}
+}
+
+// Text position
+.text-center-on-large {
+	@include breakpoint(large up) {
+		text-align: center;
+	}
+}
+
+.text-center-on-medium {
+	@include breakpoint(medium up) {
+		text-align: center;
+	}
+}
+
+.text-center-on-medium-only {
+	@include breakpoint(medium only) {
+		text-align: center;
+	}
+}
+
+.text-center-on-small {
+	@include breakpoint(small only) {
+		text-align: center;
+	}
+}
+
+// Width
+// 100%
+.width-100-xlarge {
+	@include breakpoint(xlarge up) {
+		width: 100%;
+	}
+}
+
+.width-100-large {
+	@include breakpoint(large up) {
+		width: 100%;
+	}
+}
+
+.width-100-medium {
+	@include breakpoint(medium up) {
+		width: 100%;
+	}
+}
+
+.width-100-small {
+	@include breakpoint(small up) {
+		width: 100%;
+	}
+}
+
+.width-100-large-only {
+	@include breakpoint(large only) {
+		width: 100%;
+	}
+}
+
+.width-100-medium-only {
+	@include breakpoint(medium only) {
+		width: 100%;
+	}
+}
+
+.width-100-small-only {
+	@include breakpoint(small only) {
+		width: 100%;
+	}
+}
+
+// 75%
+
+.width-75-xlarge {
+	@include breakpoint(xlarge up) {
+		width: 75%;
+	}
+}
+
+.width-75-large {
+	@include breakpoint(large up) {
+		width: 75%;
+	}
+}
+
+.width-75-medium {
+	@include breakpoint(medium up) {
+		width: 75%;
+	}
+}
+
+.width-75-small {
+	@include breakpoint(small up) {
+		width: 75%;
+	}
+}
+
+.width-75-large-only {
+	@include breakpoint(large only) {
+		width: 75%;
+	}
+}
+
+.width-75-medium-only {
+	@include breakpoint(medium only) {
+		width: 75%;
+	}
+}
+
+.width-75-small-only {
+	@include breakpoint(small only) {
+		width: 75%;
+	}
+}
+
+// 50%
+.width-50-xlarge {
+	@include breakpoint(xlarge up) {
+		width: 50%;
+	}
+}
+
+.width-50-large {
+	@include breakpoint(large up) {
+		width: 50%;
+	}
+}
+
+.width-50-medium {
+	@include breakpoint(medium up) {
+		width: 50%;
+	}
+}
+
+.width-50-small {
+	@include breakpoint(small up) {
+		width: 50%;
+	}
+}
+
+.width-50-large-only {
+	@include breakpoint(large only) {
+		width: 50%;
+	}
+}
+
+.width-50-medium-only {
+	@include breakpoint(medium only) {
+		width: 50%;
+	}
+}
+
+.width-50-small-only {
+	@include breakpoint(small only) {
+		width: 50%;
+	}
+}
+
+// 25%
+.width-25-xlarge {
+	@include breakpoint(xlarge up) {
+		width: 25%;
+	}
+}
+
+.width-25-large {
+	@include breakpoint(large up) {
+		width: 25%;
+	}
+}
+
+.width-25-medium {
+	@include breakpoint(medium up) {
+		width: 25%;
+	}
+}
+
+.width-25-small {
+	@include breakpoint(small up) {
+		width: 25%;
+	}
+}
+
+.width-25-large-only {
+	@include breakpoint(large only) {
+		width: 25%;
+	}
+}
+
+.width-25-medium-only {
+	@include breakpoint(medium only) {
+		width: 25%;
+	}
+}
+
+.width-25-small-only {
+	@include breakpoint(small only) {
+		width: 25%;
+	}
+}
+
+// Margins
+.margin-vertical-auto {
+	margin: 0 auto;
+}
+
+.margin-auto-small-only {
+	@include breakpoint(small only) {
+		margin: auto;
+	}
+}
+
+.margin-auto-medium-only {
+	@include breakpoint(medium only) {
+		margin: auto;
+	}
+}
+
+.margin-auto-large-only {
+	@include breakpoint(large only) {
+		margin: auto;
+	}
+}
+
+
+.quote-close {
+	rotate: -180deg;
+}

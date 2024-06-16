@@ -1,7 +1,19 @@
 .top-bar-wrapper {
-	background-color: $clr-primary-dark;
+  background-color: $topbar-bg;
+  
+  .top-bar {
+    background-color: inherit;
 
-	.top-bar {
-		background-color: inherit;
-	}
+    ul.dropdown.menu {
+      background-color: inherit;
+
+      li a {
+        color: $topbar-link;
+
+        &:hover {
+          color: $topbar-link-hover;
+        }
+      }
+    }
+  }
 }
